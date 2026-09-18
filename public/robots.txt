@@ -1,0 +1,6 @@
+# robots.txt for Kedaibesiburuk-my
+User-agent: *
+Allow: /
+
+# Disallow nothing - all public pages are indexable
+Sitemap: https://kedaibesiburuk-my.netlify.app/sitemap.xml

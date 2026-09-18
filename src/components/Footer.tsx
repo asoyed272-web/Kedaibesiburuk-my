@@ -26,25 +26,25 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenWhatsAppModal, onOpe
               <div className="w-12 h-12 rounded-full overflow-hidden border border-emerald-500/40 bg-white flex items-center justify-center shadow-md shrink-0">
                 <img
                   src={logoImg}
-                  alt="Kedai Besi Buruk Logo"
+                  alt="Kedaibesiburuk-my Scrap Metal Recycling Logo"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <div>
                 <span className="text-base font-extrabold text-white tracking-tight block">
-                  Kedai Besi Buruk
+                  Kedaibesiburuk-my
                 </span>
                 <span className="text-[11px] text-emerald-400 font-medium">
-                  Belanja Mudah, Hidup Lebih Baik
+                  {lang === 'bm' ? 'Kedai Besi Buruk & Kitar Semula Malaysia' : 'Kedai Besi Buruk & Scrap Collector Malaysia'}
                 </span>
               </div>
             </div>
 
             <p className="text-slate-400 text-xs leading-relaxed">
               {lang === 'bm'
-                ? 'Pakar pengumpulan dan pembelian pelbagai jenis sisa besi buruk, tembaga, aluminium, bateri, mesin kilang dan sisa pembinaan dengan lori berlesen di seluruh Malaysia.'
-                : 'Licensed scrap collection, buying, and recycling provider in Malaysia. Fast door-to-door lorry pickup and transparent on-site scale weighing.'}
+                ? 'Kedaibesiburuk-my ialah pakar pengumpulan dan pembelian pelbagai jenis sisa besi buruk, tembaga, aluminium, bateri, mesin kilang dan sisa pembinaan dengan lori berlesen di seluruh Malaysia.'
+                : 'Kedaibesiburuk-my is Malaysia’s licensed scrap collection, buying, and recycling provider. Fast door-to-door lorry pickup and transparent on-site scale weighing.'}
             </p>
 
             <div className="flex items-center gap-2 pt-2">
@@ -175,7 +175,7 @@ export const Footer: React.FC<FooterProps> = ({ lang, onOpenWhatsAppModal, onOpe
       <div className="border-t border-slate-900 bg-slate-950 py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
           <p className="text-slate-500 text-xs">
-            © {currentYear} Kedai Besi Buruk Malaysia. All rights reserved.
+            © {currentYear} Kedaibesiburuk-my. All rights reserved.
             <span className="mx-2 text-slate-700">|</span>
             <span>Developed by </span>
             <button

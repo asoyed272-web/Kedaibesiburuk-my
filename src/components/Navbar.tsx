@@ -49,7 +49,7 @@ export const Navbar: React.FC<NavbarProps> = ({ lang, onLanguageChange, onOpenWh
             <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-emerald-500/30 shadow-sm group-hover:scale-105 transition-transform duration-200 bg-white flex items-center justify-center shrink-0">
               <img
                 src={logoImg}
-                alt="Kedai Besi Buruk"
+                alt="Kedaibesiburuk-my Scrap Collection & Recycling Malaysia"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -57,14 +57,11 @@ export const Navbar: React.FC<NavbarProps> = ({ lang, onLanguageChange, onOpenWh
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
                 <span className="text-lg sm:text-xl font-extrabold text-slate-900 tracking-tight leading-none group-hover:text-emerald-800 transition-colors">
-                  Kedai Besi Buruk
-                </span>
-                <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-200">
-                  MY
+                  Kedaibesiburuk-my
                 </span>
               </div>
               <span className="text-[11px] sm:text-xs font-medium text-emerald-700 tracking-normal mt-0.5 font-semibold">
-                Belanja Mudah, Hidup Lebih Baik
+                {lang === 'bm' ? 'Kedai Besi Buruk & Kitar Semula' : 'Kedai Besi Buruk & Scrap Collector'}
               </span>
             </div>
           </a>

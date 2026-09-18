@@ -1,9 +1,12 @@
 import { AreaItem, FAQItem, ServiceItem } from '../types';
 
 export const BUSINESS_CONFIG = {
-  name: 'Kedai Besi Buruk',
-  taglineEn: 'Professional Scrap Collection, Buying & Recycling in Malaysia',
-  taglineBm: 'Perkhidmatan Pengumpulan, Pembelian & Kitar Semula Besi Buruk Malaysia',
+  name: 'Kedaibesiburuk-my',
+  brandName: 'Kedaibesiburuk-my',
+  serviceTitleEn: 'Kedai Besi Buruk & Scrap Collector Malaysia',
+  serviceTitleBm: 'Kedai Besi Buruk & Pengutip Besi Terpakai Malaysia',
+  taglineEn: 'Kedai Besi Buruk & Scrap Collector Malaysia',
+  taglineBm: 'Kedai Besi Buruk & Kitar Semula Logam Malaysia',
   phoneDisplay: '013-603 4825',
   phoneTel: '+60136034825',
   secondaryPhone: '013-603 4825',
@@ -11,6 +14,7 @@ export const BUSINESS_CONFIG = {
   whatsappNumber: '60136034825',
   whatsappDisplay: '013-603 4825',
   email: 'inquiry@kedaibesiburuk.my',
+  websiteUrl: 'https://kedaibesiburuk-my.netlify.app/',
   operatingHoursEn: 'Open 24/7 (24 Hours / 7 Days)',
   operatingHoursBm: 'Beroperasi 24/7 (24 Jam / 7 Hari)',
   address: 'Lot 1428, Jalan Subang Industrial Park, 47500 Subang Jaya, Selangor, Malaysia',
@@ -147,7 +151,35 @@ export const coverageAreasData: AreaItem[] = [
 ];
 
 export const faqsData: FAQItem[] = [
-  // General Category
+  // General & Brand Identity Category
+  {
+    category: 'general',
+    questionEn: 'What is Kedaibesiburuk-my?',
+    questionBm: 'Apakah itu Kedaibesiburuk-my?',
+    answerEn: 'Kedaibesiburuk-my is Malaysia’s trusted scrap collection, buying, and recycling service brand. We provide on-site doorstep lorry pickup, digital scale weighing, and instant cash / DuitNow payment for ferrous and non-ferrous scrap metals.',
+    answerBm: 'Kedaibesiburuk-my ialah jenama perkhidmatan pengumpulan, pembelian, dan kitar semula besi buruk terkemuka di Malaysia. Kami menyediakan servis lori ke pintu rumah, timbangan digital tepat, serta bayaran tunai / DuitNow segera.'
+  },
+  {
+    category: 'general',
+    questionEn: 'What is a kedai besi buruk?',
+    questionBm: 'Apakah maksud kedai besi buruk?',
+    answerEn: 'A "kedai besi buruk" (scrap metal shop / collector) is a specialized recycling facility that purchases discarded metal items (iron, copper, aluminium, brass, batteries, airconds, e-waste) for eco-friendly sorting, recovery, and industrial re-smelting in Malaysia.',
+    answerBm: 'Kedai besi buruk ialah perniagaan kitar semula yang membeli barangan logam terpakai (besi, tembaga, aluminium, tembaga kuning, bateri, aircond, sisa elektrik) untuk diasingkan dan diproses semula demi kelestarian alam sekitar.'
+  },
+  {
+    category: 'general',
+    questionEn: 'Where can I sell besi buruk in Malaysia?',
+    questionBm: 'Di mana saya boleh jual besi buruk di Malaysia?',
+    answerEn: 'You can sell your besi buruk directly to Kedaibesiburuk-my! We provide convenient door-to-door lorry collection across Klang Valley, Selangor, Kuala Lumpur, and Peninsular Malaysia with instant weighing and payout.',
+    answerBm: 'Anda boleh menjual besi buruk anda terus kepada Kedaibesiburuk-my! Kami menyediakan servis lori ke lokasi anda di sekitar Lembah Klang, Selangor, KL, dan seluruh Semenanjung Malaysia dengan bayaran terus di tapak.'
+  },
+  {
+    category: 'general',
+    questionEn: 'Do you collect barang lusuh?',
+    questionBm: 'Adakah anda mengambil barang lusuh?',
+    answerEn: 'Yes! Kedaibesiburuk-my collects and buys various categories of barang lusuh, including used household steel, copper cables, aluminium frames, used car batteries, air conditioning units, and renovation scrap metal.',
+    answerBm: 'Ya! Kedaibesiburuk-my mengumpul dan membeli pelbagai barangan lusuh logam termasuk besi rumah, kabel tembaga, bingkai aluminium, bateri kenderaan, unit aircond, dan lebihan besi ubah suai.'
+  },
   {
     category: 'general',
     questionEn: 'How does your scrap metal collection and buying service work?',
@@ -157,20 +189,34 @@ export const faqsData: FAQItem[] = [
   },
   {
     category: 'general',
-    questionEn: 'What are your operating hours and collection coverage areas?',
-    questionBm: 'Apakah waktu operasi dan kawasan liputan kutipan?',
-    answerEn: 'We operate 24/7 (24 hours / 7 days a week) for customer inquiries, rapid scheduling, and emergency site clearances. Our fleet covers all districts across Selangor, Kuala Lumpur, and major bulk projects in Negeri Sembilan, Perak, Penang, and Johor.',
-    answerBm: 'Kami beroperasi 24/7 (24 jam / 7 hari seminggu) untuk pertanyaan, jadual pantas, dan pembersihan tapak segera. Armada kami meliputi seluruh Selangor, Kuala Lumpur, serta projek pukal di Negeri Sembilan, Perak, Pulau Pinang, dan Johor.'
+    questionEn: 'How can I contact Kedaibesiburuk-my?',
+    questionBm: 'Bagaimana cara menghubungi Kedaibesiburuk-my?',
+    answerEn: 'You can reach Kedaibesiburuk-my 24/7 via WhatsApp at 013-603 4825 or visit our website at https://kedaibesiburuk-my.netlify.app/ to book an on-site scrap collection.',
+    answerBm: 'Anda boleh menghubungi Kedaibesiburuk-my 24/7 melalui WhatsApp di 013-603 4825 atau layari https://kedaibesiburuk-my.netlify.app/ untuk tempahan kutipan lori.'
   },
   {
     category: 'general',
     questionEn: 'Are you a licensed scrap metal and recycling operator in Malaysia?',
     questionBm: 'Adakah perniagaan anda berlesen secara sah di Malaysia?',
-    answerEn: 'Yes, we are a fully registered and licensed scrap metal trading, logistics, and recycling operator complying with all local council and environmental regulations in Malaysia.',
-    answerBm: 'Ya, kami adalah syarikat pengumpulan, perdagangan besi buruk dan kitar semula yang berdaftar serta berlesen sah mengikut piawaian pihak berkuasa dan alam sekitar Malaysia.'
+    answerEn: 'Yes, Kedaibesiburuk-my is a fully registered and licensed scrap metal trading, logistics, and recycling operator complying with all local council and environmental regulations in Malaysia.',
+    answerBm: 'Ya, Kedaibesiburuk-my adalah syarikat pengumpulan, perdagangan besi buruk dan kitar semula yang berdaftar serta berlesen sah mengikut piawaian pihak berkuasa dan alam sekitar Malaysia.'
   },
 
   // Services & Collection Category
+  {
+    category: 'services',
+    questionEn: 'Do you provide scrap pickup?',
+    questionBm: 'Adakah anda menyediakan khidmat pengambilan lori (scrap pickup)?',
+    answerEn: 'Yes, Kedaibesiburuk-my provides comprehensive door-to-door scrap pickup with 1-ton, 3-ton, and 5-ton lorries as well as 20ft RORO bins for homes, auto workshops, construction sites, and manufacturing plants.',
+    answerBm: 'Ya, Kedaibesiburuk-my menyediakan servis pengambilan lori (scrap pickup) dari pintu ke pintu dengan lori 1-tan, 3-tan, 5-tan dan tong RORO 20 kaki untuk rumah, bengkel, tapak pembinaan dan kilang.'
+  },
+  {
+    category: 'services',
+    questionEn: 'How can I sell my scrap to Kedaibesiburuk-my?',
+    questionBm: 'Bagaimana cara untuk menjual besi buruk kepada Kedaibesiburuk-my?',
+    answerEn: 'Simply click any WhatsApp button on this site, tell us what materials you have (with photos if possible), share your location, and our collection lorry team will be scheduled to weigh and pay you on-site.',
+    answerBm: 'Cukup mudah: klik butang WhatsApp di laman web ini, nyatakan jenis bahan (berserta foto jika ada), kongsi lokasi anda, dan lori kami akan datang menimbang serta membuat bayaran tunai/DuitNow terus di lokasi.'
+  },
   {
     category: 'services',
     questionEn: 'Is there a minimum quantity required for on-site lorry collection?',

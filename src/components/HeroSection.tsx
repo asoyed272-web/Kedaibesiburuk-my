@@ -25,31 +25,36 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ lang, onOpenWhatsAppMo
           
           {/* LEFT COLUMN: Content & CTAs */}
           <div className="lg:col-span-7 flex flex-col items-start text-left">
-            {/* Small Eyebrow */}
+            {/* Small Eyebrow with Official Brand Tag */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-900/90 border border-emerald-500/50 text-emerald-200 text-xs font-bold tracking-wider uppercase mb-4 sm:mb-6 shadow-sm">
               <img
                 src={logoImg}
-                alt="Kedai Besi Buruk"
+                alt="Kedaibesiburuk-my Official Logo"
                 className="w-4 h-4 rounded-full object-cover border border-emerald-400"
                 referrerPolicy="no-referrer"
               />
-              <span>{lang === 'bm' ? 'PENGUMPULAN & KITAR SEMULA BESI BURUK BERLESEN' : 'PROFESSIONAL SCRAP COLLECTION & RECYCLING'}</span>
+              <span>{lang === 'bm' ? 'KEDAIBESIBURUK-MY • KEDAI BESI BURUK & PENGUTIP BESI MALAYSIA' : 'KEDAIBESIBURUK-MY • KEDAI BESI BURUK & SCRAP COLLECTOR MALAYSIA'}</span>
             </div>
 
-            {/* Large Heading */}
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[2.85rem] font-extrabold text-white tracking-tight leading-[1.15] mb-4 sm:mb-6">
+            {/* Large Main Heading (H1) with Official Brand & Service Phrase */}
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[2.75rem] font-extrabold text-white tracking-tight leading-[1.18] mb-4 sm:mb-6">
+              <span className="text-emerald-400 block mb-1">Kedaibesiburuk-my</span>
               {lang === 'bm' ? (
-                <>Rakan Dipercayai Pengumpulan <span className="text-emerald-400">Besi Buruk</span> di Malaysia</>
+                <span className="text-slate-100 text-2xl sm:text-3xl lg:text-4xl font-bold block">
+                  Kedai Besi Buruk &amp; Scrap Collector Malaysia
+                </span>
               ) : (
-                <>Your Trusted <span className="text-emerald-400">Scrap Collection</span> Partner in Malaysia</>
+                <span className="text-slate-100 text-2xl sm:text-3xl lg:text-4xl font-bold block">
+                  Kedai Besi Buruk &amp; Scrap Collector Malaysia
+                </span>
               )}
             </h1>
 
-            {/* Supporting Text */}
+            {/* Supporting Text with Natural Keyword Integration */}
             <p className="text-base sm:text-lg text-slate-200 leading-relaxed mb-6 sm:mb-8 max-w-2xl font-normal">
               {lang === 'bm'
-                ? 'Kedai Besi Buruk menyediakan perkhidmatan pengumpulan, pembelian, dan pengangkutan besi serta logam terpakai yang mudah dan cepat untuk rumah, perniagaan, bengkel, kilang dan tapak projek di seluruh Malaysia.'
-                : 'Kedai Besi Buruk provides convenient scrap collection, scrap buying and transportation services for homes, businesses, workshops, factories and more.'}
+                ? 'Kedaibesiburuk-my ialah perkhidmatan kedai besi buruk dan scrap collector profesional di Malaysia. Kami menguruskan kutipan, pembelian, dan pengangkutan barang lusuh serta sisa besi buruk dengan lori berlesen terus dari pintu rumah, bengkel, kilang, dan tapak pembinaan.'
+                : 'Kedaibesiburuk-my is Malaysia’s trusted scrap collector and kedai besi buruk service. We offer convenient doorstep scrap collection, on-site digital weighing, and instant payment for all recyclable metals and barang lusuh across Malaysia.'}
             </p>
 
             {/* CTAs: Primary (Request Collection), Secondary (WhatsApp Us), Also (Call Now) */}
@@ -107,7 +112,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ lang, onOpenWhatsAppMo
             <div className="relative rounded-2xl overflow-hidden border-2 border-emerald-500/30 shadow-2xl shadow-emerald-950/80 bg-slate-800 aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] group">
               <img
                 src="/assets/images/hero_scrap_truck.jpg"
-                alt="Kedai Besi Buruk commercial scrap metal collection truck and recycling team Malaysia"
+                alt="Kedaibesiburuk-my commercial scrap metal collection truck and recycling team in Malaysia"
                 referrerPolicy="no-referrer"
                 loading="eager"
                 className="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-700"

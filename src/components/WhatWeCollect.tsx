@@ -169,7 +169,7 @@ export const WhatWeCollect: React.FC<WhatWeCollectProps> = ({ lang, onOpenWhatsA
                   <div className="relative aspect-[4/3] w-full bg-slate-100 overflow-hidden shrink-0">
                     <img
                       src={material.image}
-                      alt={`${material.nameEn} - Kedai Besi Buruk Scrap Collection`}
+                      alt={`${material.nameEn} (${material.nameBm}) - Kedaibesiburuk-my Scrap Metal Recycling Malaysia`}
                       referrerPolicy="no-referrer"
                       onError={(e) => handleImageError(material.id, e)}
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"

@@ -21,7 +21,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ lang, onOpenWhat
           </div>
           
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight">
-            {lang === 'bm' ? 'Hubungi Kedai Besi Buruk Hari Ini' : 'Contact Kedai Besi Buruk Today'}
+            {lang === 'bm' ? 'Hubungi Kedaibesiburuk-my Hari Ini' : 'Contact Kedaibesiburuk-my Today'}
           </h2>
           
           <p className="text-base sm:text-lg text-slate-600 mt-3.5 max-w-2xl mx-auto leading-relaxed">
