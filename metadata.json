@@ -1,0 +1,6 @@
+{
+  "name": "Kedai Besi Buruk",
+  "description": "Professional scrap collection, scrap buying, recycling, and scrap transportation services in Malaysia.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
